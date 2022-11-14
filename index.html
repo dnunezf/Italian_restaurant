@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ristorante Italiano</title>
+    <script src="https://kit.fontawesome.com/bab8607cc3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Ristorante <span class="verde">Tu</span><span>ri</span><span class="rojo">lli</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#">Inicio</a>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Menú</a>
+                    <a href="#">Chef</a>
+                    <a href="#">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Accoglienza!</h2>
+                    <a href="#" class="btn bordes">Il nostro menú</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="/assets/bg_video.mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienvenido a!</p>
+            <h1>Ristorante Turilli</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloremque dignissimos odio illo qui
+                cum, nostrum voluptatibus iste, asperiores assumenda sint dicta maiores.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur fugiat deserunt repellendus
+                fuga inventore, dolor deleniti sunt consequuntur nam repellat.
+            </p>
+            <a href="#" class="btn btn-rojo">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen-1">
+                <img data-src="/assets/img/nosotros1.webp" alt="mujer comiendo pizza">
+            </div>
+            <div class="imagenes2">
+                <img data-src="/assets/img/nosotros2.webp" alt="mujeres comiendo pizza">
+                <img data-src="/assets/img/nosotros3.webp" alt="plato con pasta">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor">
+        <h2 class="texto-platillos">Platillos populares</h2>
+            <div class="botones-platillos">
+                <button class="todos btn btn-verde">Todos</button>
+                <button class="ensaladas btn btn-verde">Ensaladas</button>
+                <button class="pasta btn btn-verde">Pastas</button>
+                <button class="pizza btn btn-verde">Pizzas</button>
+                <button class="postres btn btn-verde">Postres</button>
+            </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="/assets/img/ensalada.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$23.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="/assets/img/ensalada2.webp" alt="ensalada">
+                <h2>Capresse</h2>
+                <p>Mozzarella y hojas de albahaca frescas</p>
+                <div class="precio">
+                    <p>$28.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="/assets/img/ensalada2.webp" alt="ensalada">
+                <h2>Panzanella</h2>
+                <p>Queso feta, tomates pera grandes, pan ciabatta</p>
+                <div class="precio">
+                    <p>$29.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="/assets/img/pasta1.webp" alt="pasta">
+                <h2>Espaguetis</h2>
+                <p>Pasta a partir de masa de harina de trigo</p>
+                <div class="precio">
+                    <p>$20.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="/assets/img/pasta2.webp" alt="pasta">
+                <h2>Tagliatelle</h2>
+                <p>Macarrones, tallarines, fusilli y aromas</p>
+                <div class="precio">
+                    <p>$33.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="/assets/img/pasta2.webp" alt="pasta">
+                <h2>Vermicelli</h2>
+                <p>Arroz con verduras salteadas, fideos largos y finos</p>
+                <div class="precio">
+                    <p>$39.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="/assets/img/pizza1.webp" alt="pizza">
+                <h2>Margherita</h2>
+                <p>Pizza napolitana elaborada con tomate, mozzarella y albahaca fresca</p>
+                <div class="precio">
+                    <p>$50.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="/assets/img/pizza2.webp" alt="pizza">
+                <h2>Queso y pepperoni</h2>
+                <p>Carne de res finamente picada, acompañada de varias especias</p>
+                <div class="precio">
+                    <p>$55.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="/assets/img/pizza2.webp" alt="pizza">
+                <h2>Focaccia</h2>
+                <p>Pan pizza cubierto con hierbas, elaborado con masa simple de harina, aceite y agua</p>
+                <div class="precio">
+                    <p>$45.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="/assets/img/postres1.webp" alt="postre">
+                <h2>Tiramisú</h2>
+                <p>Cafe granulado, acompañado de queso-crema Mascarpone</p>
+                <div class="precio">
+                    <p>$15.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="/assets/img/postres2.webp" alt="postre">
+                <h2>Panna Cotta</h2>
+                <p>Postre italiano de crema, cubierto de nata líquida</p>
+                <div class="precio">
+                    <p>$12.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="/assets/img/postres2.webp" alt="postre">
+                <h2>Cannoli</h2>
+                <p>Queso ricotta, harina de trigo, canela molida y extractos de vainilla</p>
+                <div class="precio">
+                    <p>$19.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Comida italiana para empezar el día</h2>
+            <p>Empieza tu día comiendo deliciosa comida o un café italiano</p>
+            <a href="#" class="btn btn-verde">Ordenar ahora</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor">
+        <h2>Chef ejecutivo</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>La excelencia está en la diversidad, y el modo de progresar es conocer y comparar las diversidades
+                    de
+                    productos, culturas y técnicas.
+                </h3>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi odio expedita necessitatibus,
+                    sapiente
+                    mollitia eos suscipit voluptates impedit reprehenderit quibusdam, et soluta maxime esse ab ut
+                    blanditiis, corporis vel obcaecati.
+                </P>
+                <a href="#" class="btn btn-verde">Leer Biografía</a>
+            </div>
+            <div class="imagen-chef">
+                <img data-src="/assets/img/chef.webp" alt="fotografia del chef">
+            </div>
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor">
+        <div class="informacion-contacto">
+            <h3>Contáctanos</h3>
+            <p><i class="fa-solid fa-location-dot"></i>23. Roma Italia 75012</p>
+            <p><i class="fa-solid fa-envelope"></i>david.a.nunez27@outlook.com</p>
+            <p><i class="fa-solid fa-phone"></i>+506 8301-3384</p>
+            <div class="redes-sociales">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Your Name" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Your Surname" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="example@example.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="(+506) 0000-0000" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+    <div class="pie-pagina">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>23.Roma Italia 75012</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sábados y Jueves 7:00 a.m - 11:00 p.m</p>
+                <p>+506 8301-3384</p>
+            </div>
+            <div class="info">
+                <h3>Horario</h3>
+                <p>Lunes - Domingo: 7:00 a.m - 11:00 p.m</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>Visita nuestras redes sociales para recibir más noticias</p>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde" value="Reservar">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2022 Ristorante Turilli, desarrollado por David Núñez Franco</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
